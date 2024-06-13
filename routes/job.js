@@ -6,6 +6,9 @@ router.get('/', (req, res) => {
   res.render('job');
 });
 
+const JOB_LISTINGS_FILE = process.env.JOB_LISTINGS_FILE || './data/jobListings.json';
+const JOB_VILLAGERS_FILE = process.env.JOB_VILLAGERS_FILE || './data/villagers.json';
+
 const getJobListings = () => {
   const data = fs.readFileSync('./data/jobListings.json');
   return JSON.parse(data);
