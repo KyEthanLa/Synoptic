@@ -34,6 +34,11 @@ block content
                         div
                             button.delete(type='submit' onclick='openDeletePopup()') Details
                             #delete-popup.delete-popup
+                                h1 #{val.position}
+                                p Location: #{val.location}
+                                p Employer: #{val.employer}
+                                p Description: #{val.description}
+                                p Tags: #{val.tags}
                                 button.close(type='button' onclick='closeDeletePopup()') CLOSE
             .item2
                 .card
