@@ -7,7 +7,7 @@
     "employer": "Farmer Association.",
     "description": "Tend to the fields.",
     "tags": [],
-    "contactDetails": "2444-66666"
+    "contactDetails": "07878865649"
   },
   {
     "position": "Driver",
@@ -17,7 +17,7 @@
     "employer": "Farmer Association",
     "description": "Drives the tractor",
     "tags": [],
-    "contactDetails": "123-5555"
+    "contactDetails": "07878865649"
   },
   {
     "position": "Job3",
@@ -58,14 +58,5 @@
     "description": "bbbb",
     "tags": [],
     "contactDetails": "8080808"
-  },
-  {
-    "position": "Cleaner",
-    "date": "13/06/2024",
-    "deadline": "2024-06-30",
-    "location": "Ratanakiri",
-    "employer": "Example Corp",
-    "tags": [],
-    "contactDetails": "123-4567"
   }
 ]
