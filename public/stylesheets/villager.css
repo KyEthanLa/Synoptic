@@ -49,11 +49,11 @@ header {
 main {
     overflow-y: scroll;
     height: 100vh;
-    padding-top: 13vh;
+    padding-top: 14vh;
 }
 main h2 {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     font-weight: 500;
 }
 
