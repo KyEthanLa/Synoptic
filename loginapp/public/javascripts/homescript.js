@@ -53,12 +53,20 @@ let weather = {
       document.querySelector(".weather").classList.remove("loading");
       document.querySelector(".friday-title").innerText =
         (day + 1)+ "/" + month + "/" + year;
+        document.querySelector(".friday-icon").src =
+        "https://openweathermap.org/img/wn/" + icon + ".png";
       document.querySelector(".saturday-title").innerText =
       (day + 2)+ "/" + month + "/" + year;
+      document.querySelector(".saturday-icon").src =
+        "https://openweathermap.org/img/wn/" + icon + ".png";
       document.querySelector(".sunday-title").innerText =
       (day + 3)+ "/" + month + "/" + year;
+      document.querySelector(".sunday-icon").src =
+      "https://openweathermap.org/img/wn/" + icon + ".png";
       document.querySelector(".monday-title").innerText =
       (day + 4)+ "/" + month + "/" + year;
+      document.querySelector(".monday-icon").src =
+      "https://openweathermap.org/img/wn/" + icon + ".png";
       document.body.style.backgroundImage =
         "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
@@ -80,6 +88,14 @@ let weather = {
     });
   
   weather.fetchWeather("Ratanakiri");
+
+
+
+
+
+
+
+
 
   let popup = document.getElementById("status-popup");
 
