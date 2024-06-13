@@ -18,13 +18,9 @@ main
       p Number
       p Language
       p Skills
-    .villager
-      p Big Hang
-      p 333
-      p English
-      p Skills
-    .villager
-      p Pooj
-      p 333
-      p English
-      p Skills
+    each villager, index in villagerList
+      .villager
+        p= villager.name
+        p= villager.phoneNumber
+        p= villager.language
+        p= villager.skills

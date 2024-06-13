@@ -1,21 +1,11 @@
 [
   {
-    "position": "farmer",
+    "position": "Farmer",
     "date": "12/06/2024",
     "deadline": "2024-06-21",
-    "location": "Norwich",
-    "employer": "Farmer Association",
-    "description": "tend to the fields",
-    "tags": [],
-    "contactDetails": "2334445555"
-  },
-  {
-    "position": "farmer",
-    "date": "12/06/2024",
-    "deadline": "2024-06-21",
-    "location": "Norwich",
-    "employer": "Farmer Association",
-    "description": "tend to the fields",
+    "location": "Pu Ngaol",
+    "employer": "Farmer Association.",
+    "description": "Tend to the fields.",
     "tags": [],
     "contactDetails": "2444-66666"
   },
@@ -30,7 +20,7 @@
     "contactDetails": "123-5555"
   },
   {
-    "position": "hello",
+    "position": "Job3",
     "date": "13/06/2024",
     "deadline": "2024-06-21",
     "location": "Norwich",
@@ -40,7 +30,7 @@
     "contactDetails": "8080808"
   },
   {
-    "position": "hello",
+    "position": "Job4",
     "date": "13/06/2024",
     "deadline": "",
     "location": "London",
@@ -50,7 +40,7 @@
     "contactDetails": "8080808"
   },
   {
-    "position": "Driver",
+    "position": "Job5",
     "date": "13/06/2024",
     "deadline": "",
     "location": "Paris",
@@ -60,7 +50,7 @@
     "contactDetails": "8080808"
   },
   {
-    "position": "hello",
+    "position": "Job6",
     "date": "13/06/2024",
     "deadline": "",
     "location": "NYC",
