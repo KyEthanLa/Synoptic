@@ -1,0 +1,16 @@
+block content
+head
+body
+    header
+      h2.logo Gov
+      nav.navigation
+        if !loggedIn
+          a(href='/') Login
+          a(href='/register') Register
+        if isAdmin 
+          a(href='/') Status
+        if loggedIn 
+          a(href='/weather') Weather Alert
+          a(href='/job') Job Alert
+          a(href='/villager') Villager Database
+          a(href='/accountSettings') ( #{user} )
