@@ -68,5 +68,14 @@
     "description": "bbbb",
     "tags": [],
     "contactDetails": "8080808"
+  },
+  {
+    "position": "Cleaner",
+    "date": "13/06/2024",
+    "deadline": "2024-06-30",
+    "location": "Ratanakiri",
+    "employer": "Example Corp",
+    "tags": [],
+    "contactDetails": "123-4567"
   }
 ]
